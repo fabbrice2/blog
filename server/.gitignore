@@ -1,0 +1,45 @@
+# Dossiers
+node_modules/
+coverage/
+logs/
+dist/
+
+# Fichiers
+.env
+.env.local
+.env.*.local
+
+# Fichiers de configuration spécifiques à l'IDE ou au système
+.vscode/
+.idea/
+*.code-workspace
+
+# Fichiers de sauvegarde
+*.bak
+*.log*
+
+# Dépendances et fichiers de build
+package-lock.json
+yarn.lock
+
+# Fichiers temporaires
+*.tmp
+
+# Fichiers de configuration personnalisés
+/config/*.js
+/config/*.json
+
+# Fichiers de journalisation
+/server/logs/*.log
+
+# Fichiers de base de données (à adapter selon le type de base de données utilisé)
+/db/*.sqlite
+/db/*.db
+/db/*.sql
+
+# Fichiers de tests
+__tests__/
+test-*
+
+# Fichiers spécifiques à MongoDB
+*.mongo
