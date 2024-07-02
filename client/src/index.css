@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.full-width-text {
+  font-size: calc(10vw + 10vh); /* Responsive font size */
+  line-height: 1;
+  white-space: nowrap;
+}
