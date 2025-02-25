@@ -5,7 +5,7 @@ function Footer() {
     <div className="">
       <ul className="flex items-center gap-5">
         <li>© 2025</li>
-        <li>Twitter</li>
+        <li>Instagram</li>
         <li>Linkedin</li>
         <li>Email</li>
       </ul>
