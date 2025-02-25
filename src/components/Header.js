@@ -7,7 +7,9 @@ function Header({ darkMode, setDarkMode }) {
     <div className="py-4 md:py-8 relative">
       <div className="flex items-center justify-between">
         <div>
-          <a href="/" className="cursor-pointer">Lionel Messi</a>
+          <a href="/" className="cursor-pointer">
+            Lionel Messi
+          </a>
         </div>
         <ul className="hidden md:flex items-center gap-5">
           <li>
@@ -57,7 +59,11 @@ function Header({ darkMode, setDarkMode }) {
           </button>
 
           <div className="flex flex-col items-center">
-            <div className="text-lg font-semibold mb-8">Your Name</div>
+            <div className="text-lg font-semibold mb-8">
+              <a href="/" className="cursor-pointer">
+                Lionel Messi
+              </a>
+            </div>
             <ul className="flex flex-col items-center gap-5 text-xl">
               <li>
                 <a href="/" className="cursor-pointer hover:opacity-80">
