@@ -1,8 +1,8 @@
 import React from "react";
 import CustomButton from "../ui/CustomButton";
-import Image11 from "../assets/Image11.png"
-import Image12 from "../assets/Image2.png"
-import Image from "../assets/Image.png"
+import Image11 from "../assets/Image11.png";
+import Image12 from "../assets/Image2.png";
+import Image from "../assets/Image.png";
 
 function ProjectsList() {
   return (
@@ -86,11 +86,18 @@ function ProjectsList() {
           <div className="flex flex-col space-y-1  sm:justify-between">
             <span className="text-purple font-bold">Sunday , 1 Jan 2023</span>
             <a href="#" className="flex justify-between text-lg font-bold">
-              <h1>UX review presentatiBringing Design Process to Teams, How to Solve User Problems with Data & Inclusive Collaboration Designons</h1>
+              <h1>
+                UX review presentatiBringing Design Process to Teams, How to
+                Solve User Problems with Data & Inclusive Collaboration
+                Designons
+              </h1>
               <i class="ri-arrow-right-up-line"></i>
             </a>
             <p className="text-sm">
-            There are many different design processes that can be followed when creating a hotel management dashboard. Here are some tips for bringing a design process to teams and using data and inclusive collaboration to solve user problems
+              There are many different design processes that can be followed
+              when creating a hotel management dashboard. Here are some tips for
+              bringing a design process to teams and using data and inclusive
+              collaboration to solve user problems
             </p>
             <div className="flex gap-1">
               <CustomButton
@@ -108,11 +115,6 @@ function ProjectsList() {
                 bgColor="bg-secondary-pink"
                 textColor="text-pink"
               />
-              <CustomButton
-                title="Collaboration"
-                bgColor="bg-secondary-blue"
-                textColor="text-blue"
-              />
             </div>
           </div>
         </div>
@@ -129,7 +131,9 @@ function ProjectsList() {
               <i class="ri-arrow-right-up-line"></i>
             </a>
             <p className="text-sm">
-            An icon package is a collection of icons that can be used in various design projects, such as website design, app development, and graphic design.
+              An icon package is a collection of icons that can be used in
+              various design projects, such as website design, app development,
+              and graphic design.
             </p>
             <div className="flex gap-1">
               <CustomButton
@@ -163,7 +167,8 @@ function ProjectsList() {
               <i class="ri-arrow-right-up-line"></i>
             </a>
             <p className="text-sm">
-            How do you create compelling presentations that wow your colleagues and impress your managers?
+              How do you create compelling presentations that wow your
+              colleagues and impress your managers?
             </p>
             <div className="flex gap-1">
               <CustomButton
